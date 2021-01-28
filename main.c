@@ -15,7 +15,6 @@ int main()
     printf("Enter the number of 5 KURUS > ");
     scanf("%d",&KU5);
 
-
     TotalKu = Li1*100 + KU50*50 + KU25*25 + KU10*10 + KU5*5; // converts all the numbers into Kurus
 
     KuToLi= TotalKu/100;  // 1 LIRA is 100 KURUS, TotalKu divided by 100 will find how many liras I have.
@@ -25,6 +24,4 @@ int main()
     printf("You have %d lira and %d kurus in your pocket", KuToLi, RemainingKu);
 
     return 0;
-
-
 }
